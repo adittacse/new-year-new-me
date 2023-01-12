@@ -159,6 +159,7 @@ ul li {
     min-height: 250px;
     position: relative;
     width: 75%;
+    /*background-image: url(../images/watch.png), linear-gradient(to right, #f25113, white);*/
     background-image: url(../images/watch.png), url("../images/gradient2.png");
     border-radius: 10px;
     background-position: center;
