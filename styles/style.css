@@ -156,15 +156,15 @@ ul li {
 /* product image styles */
 .product-image {
     margin: auto;
-    background-image: url(../images/watch.png), linear-gradient(to right, #f25113, white);
+    min-height: 250px;
+    position: relative;
+    width: 75%;
+    background-image: url(../images/watch.png), url("../images/gradient2.png");
     border-radius: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-size: cover;
-    min-height: 250px;
-    position: relative;
-    width: 75%;
 }
 .product-image .section-description {
     padding-top: 30px;
